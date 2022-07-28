@@ -21,3 +21,33 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-07-28T17:15:58.476Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Fundoo_Notes.users index: email_1 dup key: { email: " rohitshinde@gmail.com " } 
+      url - /api/v1/users/userRegistration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-07-28T18:00:20.482Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (H:\NodeJS\fundooNotes\fundooNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (H:\NodeJS\fundooNotes\fundooNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (H:\NodeJS\fundooNotes\fundooNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (H:\NodeJS\fundooNotes\fundooNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (H:\NodeJS\fundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (H:\NodeJS\fundooNotes\fundooNotes\node_modules\express\lib\router\index.js:326:13)
+    at H:\NodeJS\fundooNotes\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (H:\NodeJS\fundooNotes\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (H:\NodeJS\fundooNotes\fundooNotes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users/userRegistration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-28T18:00:20.522Z"}

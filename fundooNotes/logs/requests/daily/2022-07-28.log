@@ -2,3 +2,7 @@ info: ::1 - - [28/Jul/2022:17:15:58 +0000] "POST /api/v1/users/userRegistration 
 
 info: ::1 - - [28/Jul/2022:17:17:05 +0000] "POST /api/v1/users/userRegistration HTTP/1.1" 201 274 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [28/Jul/2022:18:00:20 +0000] "POST /api/v1/users/userRegistration HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [28/Jul/2022:18:01:01 +0000] "POST /api/v1/users/userRegistration HTTP/1.1" 201 274 "-" "PostmanRuntime/7.29.2"
+
