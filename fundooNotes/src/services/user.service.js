@@ -1,5 +1,6 @@
 import User from '../models/user.model';
 import bcrypt from 'bcrypt';
+import jwt from 'jsonwebtoken';
 
 /*create new user for registration and store user password with hash password*/
 export const userRegistration = async (body) => {
@@ -26,9 +27,10 @@ export const login = async(body)=>{
   }else{
     const isPasswordCorrect = await bcrypt.compare(body.password,data.password);
     if(isPasswordCorrect){
-      return data;
+      var token=jwt.sign({email:body.email,_id:data._id},process.env.SECREATEKEY)
+      return token;
     }else{
-    throw new Error("paswword not match");
+    throw new Error("password not match");
   }
 }
 };
