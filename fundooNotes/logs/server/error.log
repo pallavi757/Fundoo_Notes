@@ -1,0 +1,23 @@
+error: 
+    status - 500 
+    message - TypeError: UserService.userRegistration is not a function
+    at _callee$ (H:\NodeJS\fundooNotes\fundooNotes\src\controllers\/user.controller.js:12:37)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userRegistration (H:\NodeJS\fundooNotes\fundooNotes\src\controllers\/user.controller.js:10:31)
+    at Layer.handle [as handle_request] (H:\NodeJS\fundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (H:\NodeJS\fundooNotes\fundooNotes\src\validators\/user.validator.js:19:5)
+    at Layer.handle [as handle_request] (H:\NodeJS\fundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/users/userRegistration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-28T17:15:58.476Z"}
