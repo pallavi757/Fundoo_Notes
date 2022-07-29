@@ -5,7 +5,6 @@ import { userAuth } from '../middlewares/auth.middleware';
 
 const router = express.Router();
 
-
 //route to create a new user for registration
 router.post('/userRegistration', newUserValidator, userController.userRegistration);
 
