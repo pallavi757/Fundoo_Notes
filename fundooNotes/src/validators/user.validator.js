@@ -1,5 +1,5 @@
 import Joi from '@hapi/joi';
-
+import HttpStatus from 'http-status-codes';
 export const newUserValidator = (req, res, next) => {
   const schema = Joi.object({
     firstName: Joi.string().min(2).required(),
