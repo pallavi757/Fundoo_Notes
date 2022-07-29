@@ -15,3 +15,299 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-07-28T19:00:37.108Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-29T12:27:09.668Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T12:27:09.801Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-29T12:28:31.176Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T12:28:31.229Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-29T12:32:58.268Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T12:32:58.339Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-29T12:33:32.802Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T12:33:32.870Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-29T12:34:22.305Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T12:34:22.359Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T12:35:42.747Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T12:35:42.816Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T12:43:27.749Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T12:43:27.817Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T12:48:12.342Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T12:48:12.444Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T12:50:43.709Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T12:50:43.776Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at noteValidator (H:\NodeJS\fundooNotes\fundooNotes\src\validators\/note.validator.js:11:16)
+    at Layer.handle [as handle_request] (H:\NodeJS\fundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (H:\NodeJS\fundooNotes\fundooNotes\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-29T12:50:51.955Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T12:54:05.392Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T12:54:05.459Z"}
+error: 
+    status - 500 
+    message - Error: User not exist
+    at _callee2$ (H:\NodeJS\fundooNotes\fundooNotes\src\services\/user.service.js:23:11)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-29T12:56:03.689Z"}
+error: 
+    status - 500 
+    message - Error: User not exist
+    at _callee2$ (H:\NodeJS\fundooNotes\fundooNotes\src\services\/user.service.js:23:11)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-29T12:58:25.465Z"}
+error: 
+    status - 500 
+    message - Error: User not exist
+    at _callee2$ (H:\NodeJS\fundooNotes\fundooNotes\src\services\/user.service.js:23:11)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-29T12:59:08.316Z"}
+error: 
+    status - 500 
+    message - Error: User not exist
+    at _callee2$ (H:\NodeJS\fundooNotes\fundooNotes\src\services\/user.service.js:23:11)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-29T12:59:47.074Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T13:00:16.914Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T13:00:16.982Z"}
+error: 
+    status - 500 
+    message - Error: User not exist
+    at _callee2$ (H:\NodeJS\fundooNotes\fundooNotes\src\services\/user.service.js:23:11)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-29T13:00:40.652Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T13:02:42.173Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T13:02:42.247Z"}
+error: 
+    status - 500 
+    message - Error: User not exist
+    at _callee2$ (H:\NodeJS\fundooNotes\fundooNotes\src\services\/user.service.js:23:11)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-29T13:02:53.582Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T13:04:49.212Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T13:04:49.268Z"}
+error: 
+    status - 500 
+    message - Error: User not exist
+    at _callee2$ (H:\NodeJS\fundooNotes\fundooNotes\src\services\/user.service.js:23:11)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-29T13:04:56.556Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T13:18:46.262Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T13:18:46.325Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T13:27:42.305Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T13:27:42.362Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T13:29:22.145Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T13:29:22.214Z"}
+error: 
+    status - 500 
+    message - Error: User not exist
+    at _callee2$ (H:\NodeJS\fundooNotes\fundooNotes\src\services\/user.service.js:22:11)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-29T13:31:10.662Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T13:39:15.910Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T13:39:15.968Z"}
+error: 
+    status - 500 
+    message - Error: User not exist
+    at _callee2$ (H:\NodeJS\fundooNotes\fundooNotes\src\services\/user.service.js:22:11)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-29T13:39:35.620Z"}
+error: 
+    status - 500 
+    message - Error: User not exist
+    at _callee2$ (H:\NodeJS\fundooNotes\fundooNotes\src\services\/user.service.js:22:11)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-29T13:40:00.507Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T16:45:13.202Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T16:45:13.264Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T16:51:55.458Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T16:51:55.520Z"}
+error: 
+    status - 500 
+    message - Error: User not exist
+    at _callee2$ (H:\NodeJS\fundooNotes\fundooNotes\src\services\/user.service.js:22:11)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-29T16:52:26.962Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T17:01:37.484Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T17:01:37.549Z"}
+error: 
+    status - 500 
+    message - Error: User not exist
+    at _callee2$ (H:\NodeJS\fundooNotes\fundooNotes\src\services\/user.service.js:22:11)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-29T17:02:03.037Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T17:15:00.928Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T17:15:00.989Z"}
+error: 
+    status - 500 
+    message - Error: User not exist
+    at _callee2$ (H:\NodeJS\fundooNotes\fundooNotes\src\services\/user.service.js:22:11)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-29T17:15:25.537Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T17:16:14.039Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T17:16:14.093Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T17:20:24.253Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T17:20:24.312Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T17:21:03.343Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T17:21:03.396Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T17:26:06.745Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T17:26:06.802Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Title" is required 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-29T17:26:17.568Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T17:32:29.250Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T17:32:29.309Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T17:34:30.842Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T17:34:30.898Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parse (H:\NodeJS\fundooNotes\fundooNotes\node_modules\body-parser\lib\types\json.js:89:19)
+    at H:\NodeJS\fundooNotes\fundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (H:\NodeJS\fundooNotes\fundooNotes\node_modules\raw-body\index.js:231:16)
+    at done (H:\NodeJS\fundooNotes\fundooNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (H:\NodeJS\fundooNotes\fundooNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-29T17:35:46.779Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T17:40:55.384Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T17:40:55.439Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T17:45:23.532Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T17:45:23.587Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T17:48:28.615Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T17:48:28.678Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T17:51:55.715Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T17:51:55.784Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T17:56:34.267Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T17:56:34.322Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T18:11:58.206Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T18:11:58.315Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T18:17:36.754Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T18:17:36.808Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T18:20:10.069Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T18:20:10.121Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-29T18:29:33.133Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T18:29:33.197Z"}
