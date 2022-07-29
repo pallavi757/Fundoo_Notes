@@ -1,5 +1,6 @@
 import User from '../models/user.model';
 import bcrypt from 'bcrypt';
+import jwt from 'jsonwebtoken';
 
 /*create new user for registration and store user password with hash password*/
 export const userRegistration = async (body) => {
@@ -16,5 +17,21 @@ export const userRegistration = async (body) => {
   const data = await User.create(body);
   return data;
   }
+};
+//for login
+export const login = async(body)=>{
+  const data = await User.findOne({email:body.email});
+  console.log(data);
+  if(data==null){
+    throw new Error("User not exist"); 
+  }else{
+    const isPasswordCorrect = await bcrypt.compare(body.password,data.password);
+    if(isPasswordCorrect){
+      var token=jwt.sign({email:body.email,_id:data._id},process.env.SECREATEKEY)
+      return token;
+    }else{
+    throw new Error("password not match");
+  }
+}
 };
 

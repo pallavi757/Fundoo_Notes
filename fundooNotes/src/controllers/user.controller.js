@@ -19,4 +19,31 @@ export const  userRegistration = async (req, res, next) => {
     next(error);
   }
 };
+//for login
+export const login = async (req, res, next) => {
+  try {
+    const data = await UserService.login(req.body);
+    res.status(HttpStatus.CREATED).json({
+      code: HttpStatus.CREATED,
+      data: data,
+      message: 'User login successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+
+//for login
+export const login = async (req, res, next) => {
+  try {
+    const data = await UserService.login(req.body);
+    res.status(HttpStatus.CREATED).json({
+      code: HttpStatus.CREATED,
+      data: data,
+      message: 'User login successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};
 
