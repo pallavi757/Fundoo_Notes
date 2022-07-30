@@ -2,3 +2,9 @@ info: ::1 - - [29/Jul/2022:18:31:40 +0000] "POST /api/v1/note/addNote HTTP/1.1" 
 
 info: ::1 - - [29/Jul/2022:18:39:51 +0000] "POST /api/v1/note/addNote HTTP/1.1" 201 262 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [30/Jul/2022:09:08:09 +0000] "GET /api/v1/note/note/getAllNote HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Jul/2022:09:08:21 +0000] "GET /api/v1/note/getAllNote HTTP/1.1" 201 474 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Jul/2022:09:11:06 +0000] "GET /api/v1/note/getAllNote HTTP/1.1" 201 474 "-" "PostmanRuntime/7.29.2"
+
