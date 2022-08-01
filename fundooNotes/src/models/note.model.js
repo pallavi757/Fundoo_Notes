@@ -7,7 +7,7 @@ const noteSchema = new Schema(
     color: {type: String},
     isArchived: {type: Boolean,type: false},
     isDeleted: {type: Boolean,type: false},
-    UserID: {type: String}
+    UserID: {type: String} 
  },
  {
     timestamps: true

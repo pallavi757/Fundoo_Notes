@@ -153,3 +153,166 @@ info: ::1 - - [30/Jul/2022:09:08:21 +0000] "GET /api/v1/note/getAllNote HTTP/1.1
 
 info: ::1 - - [30/Jul/2022:09:11:06 +0000] "GET /api/v1/note/getAllNote HTTP/1.1" 201 474 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [30/Jul/2022:10:54:05 +0000] "GET /api/v1/note/62e429776b0f0f233073f6d7 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Jul/2022:10:58:54 +0000] "GET /api/v1/note/62e429776b0f0f233073f6d7 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Jul/2022:11:00:51 +0000] "GET /api/v1/note/62e429776b0f0f233073f6d7 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Jul/2022:11:03:21 +0000] "GET /api/v1/note/62e429776b0f0f233073f6d7 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Jul/2022:11:05:57 +0000] "GET /api/v1/62e4278cf2946341c8f3e4d7 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Jul/2022:11:08:08 +0000] "GET /api/v1/note/62e4278cf2946341c8f3e4d7 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Jul/2022:11:08:18 +0000] "GET /api/v1/note/62e4278cf2946341c8f3e4d7 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Jul/2022:11:11:32 +0000] "GET /api/v1/note/_62e4278cf2946341c8f3e4d7 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Jul/2022:11:11:46 +0000] "GET /api/v1/note/62e4278cf2946341c8f3e4d7 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Jul/2022:11:13:56 +0000] "GET /api/v1/note/:62e4278cf2946341c8f3e4d7 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Jul/2022:11:15:12 +0000] "GET /api/v1/note/62e4278cf2946341c8f3e4d7 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Jul/2022:11:16:03 +0000] "GET /api/v1/note/:62e4278cf2946341c8f3e4d7 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Jul/2022:15:11:11 +0000] "GET /api/v1/note/62e4145f6baddc45c8b3b252 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Jul/2022:15:11:42 +0000] "GET /api/v1/note/62e4145f6baddc45c8b3b252 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Jul/2022:15:12:01 +0000] "GET /api/v1/note/62e4145f6baddc45c8b3b252 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Jul/2022:15:26:35 +0000] "GET /api/v1/note/62e429776b0f0f233073f6d7 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Jul/2022:15:27:52 +0000] "GET /api/v1/note/_62e429776b0f0f233073f6d7 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: $ is not defined
+ReferenceError: $ is not defined
+    at _callee3$ (H:\NodeJS\fundooNotes\fundooNotes\src\controllers\/note.controller.js:49:17)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.throw (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:29:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Sat Jul 30 2022 21:00:17 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1298664},"process":{"argv":["node","H:\\NodeJS\\fundooNotes\\fundooNotes\\src\\index.js"],"cwd":"H:\\NodeJS\\fundooNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19552671,"external":22770143,"heapTotal":82923520,"heapUsed":59630528,"rss":116985856},"pid":12836,"uid":null,"version":"v16.14.2"},"stack":"ReferenceError: $ is not defined\n    at _callee3$ (H:\\NodeJS\\fundooNotes\\fundooNotes\\src\\controllers\\/note.controller.js:49:17)\n    at tryCatch (H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.throw (H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:29:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":17,"file":"H:\\NodeJS\\fundooNotes\\fundooNotes\\src\\controllers\\/note.controller.js","function":"_callee3$","line":49,"method":null,"native":false},{"column":17,"file":"H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":117,"method":"throw","native":false},{"column":24,"file":"H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":29,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: ::1 - - [30/Jul/2022:15:33:16 +0000] "GET /api/v1/note/_62e429776b0f0f233073f6d7 HTTP/1.1" 400 85 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Jul/2022:15:33:28 +0000] "GET /api/v1/note/_62e429776b0f0f233073f6d7 HTTP/1.1" 400 85 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Jul/2022:15:34:02 +0000] "GET /api/v1/note/62e429776b0f0f233073f6d7 HTTP/1.1" 400 85 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Jul/2022:15:34:17 +0000] "GET /api/v1/note/62e4145f6baddc45c8b3b252 HTTP/1.1" 400 85 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Jul/2022:15:34:36 +0000] "GET /api/v1/note/62e429776b0f0f233073f6d7 HTTP/1.1" 400 85 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:07:35:48 +0000] "GET /api/v1/note/62e429776b0f0f233073f6d7 HTTP/1.1" 400 85 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:07:36:59 +0000] "GET /api/v1/note/62e429776b0f0f233073f6d7 HTTP/1.1" 400 58 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:07:39:36 +0000] "GET /api/v1/note/62e429776b0f0f233073f6d7 HTTP/1.1" 400 58 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:07:44:50 +0000] "GET /api/v1/note/getAllNote HTTP/1.1" 500 161 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:07:50:58 +0000] "GET /api/v1/note/getAllNote HTTP/1.1" 200 474 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:07:51:19 +0000] "GET /api/v1/note/62e429776b0f0f233073f6d7 HTTP/1.1" 400 58 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:07:58:35 +0000] "GET /api/v1/note/62e429776b0f0f233073f6d7 HTTP/1.1" 400 58 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:07:59:24 +0000] "GET /api/v1/note/62e4145f6baddc45c8b3b252 HTTP/1.1" 400 58 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:08:07:58 +0000] "GET /api/v1/note/62e429776b0f0f233073f6d7 HTTP/1.1" 400 158 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:08:08:37 +0000] "GET /api/v1/note/62e429776b0f0f233073f6d7 HTTP/1.1" 400 158 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:08:12:10 +0000] "GET /api/v1/note/62e429776b0f0f233073f6d7 HTTP/1.1" 400 85 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:08:48:56 +0000] "GET /api/v1/note/getAllNote HTTP/1.1" 200 474 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:08:53:13 +0000] "GET /api/v1/note/62e429776b0f0f233073f6d7 HTTP/1.1" 400 85 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:08:53:23 +0000] "GET /api/v1/note/getAllNote HTTP/1.1" 200 474 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:08:54:25 +0000] "GET /api/v1/note/62e4278cf2946341c8f3e4d7 HTTP/1.1" 400 85 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [31/Jul/2022:08:58:44 +0000] "GET /api/v1/note/62e4278cf2946341c8f3e4d7 HTTP/1.1" 400 85 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:02:41:33 +0000] "GET /api/v1/note/62e429776b0f0f233073f6d7 HTTP/1.1" 400 85 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:02:44:51 +0000] "GET /api/v1/note/62e429776b0f0f233073f6d7 HTTP/1.1" 400 85 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:02:48:15 +0000] "GET /api/v1/note/62e429776b0f0f233073f6d7 HTTP/1.1" 400 53 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:02:50:14 +0000] "GET /api/v1/note/62e4278cf2946341c8f3e4d7 HTTP/1.1" 200 268 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:03:11:39 +0000] "PUT /api/v1/note/62e4278cf2946341c8f3e4d7 HTTP/1.1" 200 251 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:03:26:48 +0000] "GET /api/v1/note/62e4278cf2946341c8f3e4d HTTP/1.1" 400 146 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:03:27:05 +0000] "GET /api/v1/note/62e4278cf2946341c8f3e4d7 HTTP/1.1" 200 257 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:03:28:07 +0000] "GET /api/v1/note/62e4278cf2946341c8f3e4d HTTP/1.1" 400 157 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:03:28:18 +0000] "GET /api/v1/note/62e4278cf2946341c8f3e4d7 HTTP/1.1" 200 257 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:03:29:30 +0000] "GET /api/v1/note/62e4278cf2946341c8f3e4d HTTP/1.1" 400 157 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:03:35:53 +0000] "GET /api/v1/note/62e4278cf2946341c8f3e4d HTTP/1.1" 400 146 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:03:45:48 +0000] "GET /api/v1/note/62e4278cf2946341c8f3e4d HTTP/1.1" 400 146 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:03:45:55 +0000] "GET /api/v1/note/62e4278cf2946341c8f3e4d7 HTTP/1.1" 200 257 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:03:46:41 +0000] "GET /api/v1/note/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:03:46:46 +0000] "GET /api/v1/note/62e4278cf2946341c8f3e4d7 HTTP/1.1" 200 257 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:03:47:29 +0000] "DELETE /api/v1/note/62e4278cf2946341c8f3e4d7 HTTP/1.1" 200 54 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:03:49:24 +0000] "GET /api/v1/note/62e4278cf2946341c8f3e4d7 HTTP/1.1" 400 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:03:50:47 +0000] "GET /api/v1/note/62e429776b0f0f233073f6d7 HTTP/1.1" 400 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:03:51:04 +0000] "GET /api/v1/note/62e429776b0f0f233073f6d7 HTTP/1.1" 400 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:03:52:04 +0000] "GET /api/v1/note/62e429776b0f0f233073f6d7 HTTP/1.1" 200 269 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:03:52:21 +0000] "GET /api/v1/note/2e429776b0f0f233073f6d7 HTTP/1.1" 400 146 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:03:55:22 +0000] "DELETE /api/v1/note/62e4278cf2946341c8f3e4d7 HTTP/1.1" 200 54 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:03:56:23 +0000] "DELETE /api/v1/note/62e4278cf2946341c8f3e4d7 HTTP/1.1" 200 54 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:03:57:01 +0000] "DELETE /api/v1/note/62e4278cf2946341c8f3e4d7 HTTP/1.1" 200 256 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:04:02:22 +0000] "DELETE /api/v1/note/62e4278cf2946341c8f3e4d7 HTTP/1.1" 200 54 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:04:03:56 +0000] "DELETE /api/v1/note/62e4278cf2946341c8f3e4d7 HTTP/1.1" 200 63 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:04:15:00 +0000] "GET /api/v1/note/62e4278cf2946341c8f3e4d7 HTTP/1.1" 200 257 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:04:21:33 +0000] "POST /api/v1/note/addNote HTTP/1.1" 201 249 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:04:24:38 +0000] "DELETE /api/v1/note/62e754cdce49d42180bb865b HTTP/1.1" 200 63 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:04:26:27 +0000] "DELETE /api/v1/note/62e754cdce49d42180bb865b HTTP/1.1" 200 63 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:04:28:51 +0000] "DELETE /api/v1/note/62e754cdce49d42180bb865b HTTP/1.1" 200 63 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:04:29:31 +0000] "DELETE /api/v1/note/62e754cdce49d42180bb865b HTTP/1.1" 200 63 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:04:31:42 +0000] "DELETE /api/v1/note/62e754cdce49d42180bb865b HTTP/1.1" 200 53 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:17:34:02 +0000] "GET /api/v1/note/62e754cdce49d42180bb865b HTTP/1.1" 400 101 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:17:34:29 +0000] "GET /api/v1/note/62e754cdce49d42180bb865b HTTP/1.1" 400 101 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:17:37:02 +0000] "GET /api/v1/note/62e754cdce49d42180bb865b HTTP/1.1" 400 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:17:38:30 +0000] "GET /api/v1/note/62e429776b0f0f233073f6d7 HTTP/1.1" 200 269 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:17:38:37 +0000] "GET /api/v1/note/62e429776b0f0f233073f6d HTTP/1.1" 400 146 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:17:38:48 +0000] "GET /api/v1/note/62e429776b0f0f233073f6d7 HTTP/1.1" 200 269 "-" "PostmanRuntime/7.29.2"
+

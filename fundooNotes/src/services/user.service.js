@@ -10,7 +10,7 @@ export const userRegistration = async (body) => {
   }else{
     const saltRounds=10;
     const hashPassword=await bcrypt.hash(body.password,saltRounds); /* generate hash password using hash function */
-    body.password=hashPassword;
+    body.password=hashPassword; 
   const data = await User.create(body);
   return data;
   }
