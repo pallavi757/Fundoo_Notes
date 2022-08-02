@@ -316,3 +316,31 @@ info: ::1 - - [01/Aug/2022:17:38:37 +0000] "GET /api/v1/note/62e429776b0f0f23307
 
 info: ::1 - - [01/Aug/2022:17:38:48 +0000] "GET /api/v1/note/62e429776b0f0f233073f6d7 HTTP/1.1" 200 269 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [01/Aug/2022:18:31:04 +0000] "POST /api/v1/note/addNote HTTP/1.1" 201 249 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:18:32:16 +0000] "PUT /api/v1/note/62e81be837100015b8f83936/isArchive HTTP/1.1" 500 83 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:18:38:54 +0000] "PUT /api/v1/note/62e81be837100015b8f83936/isArchive HTTP/1.1" 500 83 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:18:51:35 +0000] "PUT /api/v1/note/62e81be837100015b8f83936/isArchive HTTP/1.1" 202 271 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:18:52:45 +0000] "PUT /api/v1/note/62e429776b0f0f233073f6d7/isArchive HTTP/1.1" 202 284 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:18:55:19 +0000] "PUT /api/v1/note/62e81be837100015b8f83936/isDelete HTTP/1.1" 500 83 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:19:01:33 +0000] "PUT /api/v1/note/62e81be837100015b8f83936/isDelete HTTP/1.1" 500 83 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [01/Aug/2022:19:01:49 +0000] "PUT /api/v1/note/62e81be837100015b8f83936/isDelete HTTP/1.1" 500 83 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:02:40:22 +0000] "POST /api/v1/note/addNote HTTP/1.1" 201 258 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:02:42:30 +0000] "POST /api/v1/note/addNote HTTP/1.1" 500 76 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:02:43:45 +0000] "POST /api/v1/note/addNote HTTP/1.1" 201 261 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:02:47:32 +0000] "POST /api/v1/note/addNote HTTP/1.1" 201 298 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:02:48:40 +0000] "PUT /api/v1/note/62e8904488add42818b4a472/isArchive HTTP/1.1" 202 301 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [02/Aug/2022:02:49:08 +0000] "PUT /api/v1/note/62e8904488add42818b4a472/isDelete HTTP/1.1" 200 293 "-" "PostmanRuntime/7.29.2"
+

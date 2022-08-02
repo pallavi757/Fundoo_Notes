@@ -556,3 +556,159 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-01T1
 error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (H:\\NodeJS\\fundooNotes\\fundooNotes\\src\\config\\/database.js:12:20)\n    at tryCatch (H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-08-01T17:34:03.883Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-01T17:36:57.152Z"}
 info: Connected to the database. {"timestamp":"2022-08-01T17:36:57.273Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-01T18:19:10.631Z"}
+info: Connected to the database. {"timestamp":"2022-08-01T18:19:10.692Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-01T18:30:31.982Z"}
+info: Connected to the database. {"timestamp":"2022-08-01T18:30:32.035Z"}
+error: 
+    status - 500 
+    message - MongooseError: Callback must be a function, got [object Object]
+    at Function.Model.$handleCallbackError (H:\NodeJS\fundooNotes\fundooNotes\node_modules\mongoose\lib\model.js:5067:11)
+    at Function.findByIdAndUpdate (H:\NodeJS\fundooNotes\fundooNotes\node_modules\mongoose\lib\model.js:2694:19)
+    at _callee6$ (H:\NodeJS\fundooNotes\fundooNotes\src\services\/note.service.js:38:29)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (H:\NodeJS\fundooNotes\fundooNotes\src\services\/note.service.js:37:26)
+    at _callee6$ (H:\NodeJS\fundooNotes\fundooNotes\src\controllers\/note.controller.js:86:40)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/note/62e81be837100015b8f83936/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-01T18:32:16.715Z"}
+error: 
+    status - 500 
+    message - MongooseError: Callback must be a function, got [object Object]
+    at Function.Model.$handleCallbackError (H:\NodeJS\fundooNotes\fundooNotes\node_modules\mongoose\lib\model.js:5067:11)
+    at Function.findByIdAndUpdate (H:\NodeJS\fundooNotes\fundooNotes\node_modules\mongoose\lib\model.js:2694:19)
+    at _callee6$ (H:\NodeJS\fundooNotes\fundooNotes\src\services\/note.service.js:38:29)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (H:\NodeJS\fundooNotes\fundooNotes\src\services\/note.service.js:37:26)
+    at _callee6$ (H:\NodeJS\fundooNotes\fundooNotes\src\controllers\/note.controller.js:86:40)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/note/62e81be837100015b8f83936/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-01T18:38:54.064Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-01T18:51:05.395Z"}
+info: Connected to the database. {"timestamp":"2022-08-01T18:51:05.538Z"}
+error: 
+    status - 500 
+    message - MongooseError: Callback must be a function, got [object Object]
+    at Function.Model.$handleCallbackError (H:\NodeJS\fundooNotes\fundooNotes\node_modules\mongoose\lib\model.js:5067:11)
+    at Function.findByIdAndUpdate (H:\NodeJS\fundooNotes\fundooNotes\node_modules\mongoose\lib\model.js:2694:19)
+    at _callee7$ (H:\NodeJS\fundooNotes\fundooNotes\src\services\/note.service.js:54:29)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.isTrash (H:\NodeJS\fundooNotes\fundooNotes\src\services\/note.service.js:53:23)
+    at _callee7$ (H:\NodeJS\fundooNotes\fundooNotes\src\controllers\/note.controller.js:99:40)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/note/62e81be837100015b8f83936/isDelete 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-01T18:55:19.146Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-01T18:57:07.858Z"}
+info: Connected to the database. {"timestamp":"2022-08-01T18:57:07.918Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-01T19:01:27.952Z"}
+info: Connected to the database. {"timestamp":"2022-08-01T19:01:28.019Z"}
+error: 
+    status - 500 
+    message - MongooseError: Callback must be a function, got [object Object]
+    at Function.Model.$handleCallbackError (H:\NodeJS\fundooNotes\fundooNotes\node_modules\mongoose\lib\model.js:5067:11)
+    at Function.findOneAndDelete (H:\NodeJS\fundooNotes\fundooNotes\node_modules\mongoose\lib\model.js:2792:19)
+    at _callee7$ (H:\NodeJS\fundooNotes\fundooNotes\src\services\/note.service.js:54:29)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.isTrash (H:\NodeJS\fundooNotes\fundooNotes\src\services\/note.service.js:53:23)
+    at _callee7$ (H:\NodeJS\fundooNotes\fundooNotes\src\controllers\/note.controller.js:99:40)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/note/62e81be837100015b8f83936/isDelete 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-01T19:01:33.160Z"}
+error: 
+    status - 500 
+    message - MongooseError: Callback must be a function, got [object Object]
+    at Function.Model.$handleCallbackError (H:\NodeJS\fundooNotes\fundooNotes\node_modules\mongoose\lib\model.js:5067:11)
+    at Function.findOneAndDelete (H:\NodeJS\fundooNotes\fundooNotes\node_modules\mongoose\lib\model.js:2792:19)
+    at _callee7$ (H:\NodeJS\fundooNotes\fundooNotes\src\services\/note.service.js:54:29)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.isTrash (H:\NodeJS\fundooNotes\fundooNotes\src\services\/note.service.js:53:23)
+    at _callee7$ (H:\NodeJS\fundooNotes\fundooNotes\src\controllers\/note.controller.js:99:40)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/note/62e81be837100015b8f83936/isDelete 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-01T19:01:49.864Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-02T02:38:47.653Z"}
+info: Connected to the database. {"timestamp":"2022-08-02T02:38:47.718Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-02T02:42:02.324Z"}
+info: Connected to the database. {"timestamp":"2022-08-02T02:42:02.404Z"}
+error: 
+    status - 500 
+    message - Error: The boolean type does not allow arguments
+    at new module.exports (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at Object.root.<computed> (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@hapi\joi\lib\index.js:57:13)
+    at noteValidator (H:\NodeJS\fundooNotes\fundooNotes\src\validators\/note.validator.js:7:20)
+    at Layer.handle [as handle_request] (H:\NodeJS\fundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (H:\NodeJS\fundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at H:\NodeJS\fundooNotes\fundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (H:\NodeJS\fundooNotes\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (H:\NodeJS\fundooNotes\fundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (H:\NodeJS\fundooNotes\fundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (H:\NodeJS\fundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (H:\NodeJS\fundooNotes\fundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at H:\NodeJS\fundooNotes\fundooNotes\node_modules\express\lib\router\index.js:286:9 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-02T02:42:30.085Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-02T02:43:28.358Z"}
+info: Connected to the database. {"timestamp":"2022-08-02T02:43:28.429Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-02T02:47:08.670Z"}
+info: Connected to the database. {"timestamp":"2022-08-02T02:47:08.726Z"}
