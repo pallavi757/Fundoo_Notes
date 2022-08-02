@@ -28,6 +28,7 @@
     "mailgun-js": "^0.22.0",
     "mongoose": "^5.10.2",
     "morgan": "^1.10.0",
+    "swagger-ui": "^4.13.1",
     "winston": "^3.3.3",
     "winston-daily-rotate-file": "^4.5.0"
   },
