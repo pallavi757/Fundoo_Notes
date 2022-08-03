@@ -4,6 +4,8 @@ dotenv.config();
 import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
+import swaggerUi from 'swagger-ui-express'; //for documentation
+import swaggerJSDoc from '../src/swagger/swagger.json';
 
 import routes from './routes';
 import database from './config/database';
@@ -12,7 +14,7 @@ import {
   genericErrorHandler,
   notFound
 } from './middlewares/error.middleware';
-import logger, { logStream } from './config/logger';
+import logger, { logStream } from './config/logger'
 
 import morgan from 'morgan';
 
@@ -26,6 +28,8 @@ app.use(helmet());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(morgan('combined', { stream: logStream }));
+app.use('/api-docs', swaggerUi.serve,swaggerUi.setup(swaggerJSDoc));
+ 
 
 database();
 

@@ -29,6 +29,7 @@
     "mongoose": "^5.10.2",
     "morgan": "^1.10.0",
     "swagger-ui": "^4.13.1",
+    "swagger-ui-express": "^4.5.0",
     "winston": "^3.3.3",
     "winston-daily-rotate-file": "^4.5.0"
   },
