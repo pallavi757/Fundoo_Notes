@@ -10,3 +10,66 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T0
 info: Connected to the database. {"timestamp":"2022-08-03T03:51:41.598Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T13:26:22.064Z"}
 info: Connected to the database. {"timestamp":"2022-08-03T13:26:22.151Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T16:22:07.011Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T16:22:07.102Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T16:25:15.055Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T16:25:15.121Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T17:24:21.047Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T17:24:21.117Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Descreption" is required 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-03T17:26:13.087Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Descreption" is required 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-03T17:31:45.372Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Descreption" is required 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-03T17:32:36.447Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Descreption" is required 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-03T17:37:04.904Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T17:44:05.871Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T17:44:05.947Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Descreption" is required 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-03T17:44:22.747Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T17:47:13.056Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T17:47:13.189Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Title" length must be at least 4 characters long 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-03T17:48:51.791Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Color" is not allowed 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-03T17:49:05.372Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T18:00:42.398Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T18:00:42.497Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T18:24:27.274Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T18:24:27.362Z"}
