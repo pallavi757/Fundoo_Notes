@@ -26,7 +26,11 @@ export const getSingleNote=async(_id)=>{
 //Update note by id
 export const updateNote=async(_id,body)=>{
     const data=await Note.findByIdAndUpdate({_id:_id},body,{new:true});
+    if(data==null){
+      throw new Error("Note is not found related id");
+    }else{
     return data;
+    }
 };
 
 //Delete note by id

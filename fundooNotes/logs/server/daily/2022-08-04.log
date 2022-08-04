@@ -1,0 +1,149 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T18:45:30.106Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T18:45:30.223Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-03T18:48:44.426Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T18:48:44.511Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T02:37:28.828Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T02:37:28.922Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Color" is not allowed 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-04T02:40:10.973Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T02:44:25.177Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T02:44:25.271Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T02:55:19.345Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T02:55:19.433Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T03:11:41.624Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T03:11:41.709Z"}
+error: 
+    status - 500 
+    message - Error: User not exist
+    at _callee2$ (H:\NodeJS\fundooNotes\fundooNotes\src\services\/user.service.js:22:11)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-04T03:13:49.694Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T07:12:50.935Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T07:12:51.020Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T07:21:14.006Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T07:21:14.092Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T07:23:50.623Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T07:23:50.672Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T07:36:44.614Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T07:36:44.686Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T07:39:37.599Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T07:39:37.680Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T07:44:49.578Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T07:44:49.666Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T08:03:53.576Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T08:03:53.658Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T08:37:52.855Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T08:37:52.916Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T08:43:23.468Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T08:43:23.549Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T08:45:55.195Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T08:45:55.282Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T08:51:41.061Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T08:51:41.128Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T08:54:24.323Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T08:54:24.398Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T09:00:10.596Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T09:00:10.661Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T09:09:55.685Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T09:09:55.766Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T09:11:16.121Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T09:11:16.207Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T09:27:20.639Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T09:27:20.746Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T09:28:54.228Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T09:28:54.345Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T09:36:47.325Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T09:36:47.413Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T09:47:16.473Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T09:47:16.554Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T11:26:16.452Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T11:26:16.636Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T11:36:23.512Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T11:36:23.587Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T11:50:04.042Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T11:50:04.101Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T11:55:28.535Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T11:55:28.592Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T12:02:54.078Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T12:02:54.143Z"}
+error: 
+    status - 500 
+    message - Error: User not exist
+    at _callee2$ (H:\NodeJS\fundooNotes\fundooNotes\src\services\/user.service.js:22:11)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-04T12:03:48.244Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T12:07:07.842Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T12:07:07.899Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T12:07:34.574Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T12:07:34.639Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T12:12:54.569Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T12:12:54.682Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{id}" (type string) at path "_id" for model "Note"
+    at model.Query.exec (H:\NodeJS\fundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (H:\NodeJS\fundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/%7Bid%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-08-04T12:17:02.521Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '{id}' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (H:\NodeJS\fundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (H:\NodeJS\fundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/%7Bid%7D/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-04T12:17:26.617Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T12:25:37.681Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T12:25:37.743Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{id}" (type string) at path "_id" for model "Note"
+    at model.Query.exec (H:\NodeJS\fundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (H:\NodeJS\fundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/%7Bid%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-08-04T12:28:05.809Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T12:43:32.327Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T12:43:32.395Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{id}" (type string) at path "_id" for model "Note"
+    at model.Query.exec (H:\NodeJS\fundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (H:\NodeJS\fundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/%7Bid%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-08-04T12:44:04.977Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T12:49:17.059Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T12:49:17.115Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T12:54:46.648Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T12:54:46.709Z"}

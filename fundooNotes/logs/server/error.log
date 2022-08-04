@@ -511,3 +511,127 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-08-02T02:42:30.085Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Descreption" is required 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-03T17:26:13.087Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Descreption" is required 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-03T17:31:45.372Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Descreption" is required 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-03T17:32:36.447Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Descreption" is required 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-03T17:37:04.904Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Descreption" is required 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-03T17:44:22.747Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Title" length must be at least 4 characters long 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-03T17:48:51.791Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Color" is not allowed 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-03T17:49:05.372Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Color" is not allowed 
+    url - /api/v1/note/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-04T02:40:10.973Z"}
+error: 
+    status - 500 
+    message - Error: User not exist
+    at _callee2$ (H:\NodeJS\fundooNotes\fundooNotes\src\services\/user.service.js:22:11)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-04T03:13:49.694Z"}
+error: 
+    status - 500 
+    message - Error: User not exist
+    at _callee2$ (H:\NodeJS\fundooNotes\fundooNotes\src\services\/user.service.js:22:11)
+    at tryCatch (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-04T12:03:48.244Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{id}" (type string) at path "_id" for model "Note"
+    at model.Query.exec (H:\NodeJS\fundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (H:\NodeJS\fundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/%7Bid%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-08-04T12:17:02.521Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '{id}' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (H:\NodeJS\fundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (H:\NodeJS\fundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/%7Bid%7D/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-04T12:17:26.617Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{id}" (type string) at path "_id" for model "Note"
+    at model.Query.exec (H:\NodeJS\fundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (H:\NodeJS\fundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/%7Bid%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-08-04T12:28:05.809Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{id}" (type string) at path "_id" for model "Note"
+    at model.Query.exec (H:\NodeJS\fundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (H:\NodeJS\fundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/%7Bid%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-08-04T12:44:04.977Z"}
