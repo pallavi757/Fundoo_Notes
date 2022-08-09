@@ -1,0 +1,14 @@
+info: ::1 - - [09/Aug/2022:16:57:57 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 400 64 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:16:58:21 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 400 46 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:16:59:13 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 400 64 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:17:02:44 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 403 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:17:03:54 +0000] "GET /resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IiBwcmFjaGlzaGluZGVAZ21haWwuY29tICIsIl9pZCI6IjYyZTQxNDVmNmJhZGRjNDVjOGIzYjI1MiIsImlhdCI6MTY2MDA2NDU1M30.RAjjA4RO6-mOt8SI4lTEPA7HRW8cJwSnYm3NsgL5bGM HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Aug/2022:17:03:54 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Aug/2022:17:05:54 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 200 332 "-" "PostmanRuntime/7.29.2"
+
