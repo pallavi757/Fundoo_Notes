@@ -45,7 +45,7 @@ import * as NoteService from '../services/note.service';
       });   
     }catch(error){
       res.status(HttpStatus.BAD_REQUEST).json({
-        code:HttpStatus.BAD_REQUEST,
+        code: HttpStatus.BAD_REQUEST,
         message:`${error}`
       });
     }

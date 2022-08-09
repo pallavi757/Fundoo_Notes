@@ -31,3 +31,24 @@ export const userAuth = async (req, res, next) => {
   });
   }
 };
+//making the middleware for reset password
+export const passwordAuth = async (req, res, next) => {
+  try {
+    let passToken = req.header('Authorization');
+    if (!passToken)
+      throw {
+        code: HttpStatus.BAD_REQUEST,
+        message: 'Authorization token is required'
+      };
+      passToken = passToken.split(' ')[1];
+    const  user = await jwt.verify(passToken,process.env.NEWSECREATEKEY);
+    //console.log(user);
+    req.body.email = user.email;
+    next();
+  } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `UnAuthorised token`
+  });
+  }
+};

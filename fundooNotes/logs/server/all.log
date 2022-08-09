@@ -936,3 +936,56 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T1
 info: Connected to the database. {"timestamp":"2022-08-04T12:49:17.115Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T12:54:46.648Z"}
 info: Connected to the database. {"timestamp":"2022-08-04T12:54:46.709Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-06T08:22:14.097Z"}
+info: Connected to the database. {"timestamp":"2022-08-06T08:22:14.171Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-06T11:15:59.808Z"}
+info: Connected to the database. {"timestamp":"2022-08-06T11:15:59.874Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-06T11:16:47.860Z"}
+info: Connected to the database. {"timestamp":"2022-08-06T11:16:47.914Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-06T11:26:27.012Z"}
+info: Connected to the database. {"timestamp":"2022-08-06T11:26:27.059Z"}
+error: uncaughtException: swaggerUi is not defined
+ReferenceError: swaggerUi is not defined
+    at Object.<anonymous> (H:\NodeJS\fundooNotes\fundooNotes\src\/index.js:31:22)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (H:\NodeJS\fundooNotes\fundooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.newLoader [as .js] (H:\NodeJS\fundooNotes\fundooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Tue Aug 09 2022 08:57:47 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":642041},"process":{"argv":["node","H:\\NodeJS\\fundooNotes\\fundooNotes\\src\\index.js"],"cwd":"H:\\NodeJS\\fundooNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18801909,"external":51864607,"heapTotal":117395456,"heapUsed":88066992,"rss":150827008},"pid":12964,"uid":null,"version":"v16.14.2"},"stack":"ReferenceError: swaggerUi is not defined\n    at Object.<anonymous> (H:\\NodeJS\\fundooNotes\\fundooNotes\\src\\/index.js:31:22)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Module._compile (H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Object.newLoader [as .js] (H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-08-09T03:27:47.478Z","trace":[{"column":22,"file":"H:\\NodeJS\\fundooNotes\\fundooNotes\\src\\/index.js","function":null,"line":31,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":24,"file":"H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":7,"file":"H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T03:28:03.052Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T03:28:03.142Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T03:28:29.317Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T03:28:29.399Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T03:43:23.853Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T03:43:23.950Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T03:51:12.607Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T03:51:12.688Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T03:53:01.393Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T03:53:01.468Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T03:54:17.392Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T03:54:17.474Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T03:55:21.143Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T03:55:21.222Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T03:58:32.679Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T03:58:32.769Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T04:01:27.474Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T04:01:27.547Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T04:03:25.760Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T04:03:25.833Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T04:05:49.039Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T04:05:49.110Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T14:55:20.328Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T14:55:20.388Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T15:30:35.908Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T15:30:35.966Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T15:34:23.377Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T15:34:23.441Z"}

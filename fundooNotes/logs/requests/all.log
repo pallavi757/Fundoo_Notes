@@ -1270,3 +1270,86 @@ info: ::1 - - [04/Aug/2022:12:57:16 +0000] "PUT /api/v1/note/62ebb439bfd2b33100d
 
 info: ::1 - - [04/Aug/2022:12:58:37 +0000] "DELETE /api/v1/note/62eb32c33ae4350c24009929 HTTP/1.1" 200 53 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
 
+info: ::1 - - [06/Aug/2022:11:25:47 +0000] "GET /resetpassword/$(token) HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Aug/2022:11:25:48 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Aug/2022:11:26:57 +0000] "GET /resetpassword/$(token) HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Aug/2022:11:27:07 +0000] "GET /resetpassword/$(token) HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Aug/2022:11:27:09 +0000] "GET /resetpassword/$(token) HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Aug/2022:11:27:09 +0000] "GET /resetpassword/$(token) HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Aug/2022:11:27:09 +0000] "GET /resetpassword/$(token) HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Aug/2022:11:27:09 +0000] "GET /resetpassword/$(token) HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Aug/2022:11:27:10 +0000] "GET /resetpassword/$(token) HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Aug/2022:11:27:10 +0000] "GET /resetpassword/$(token) HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Aug/2022:11:27:11 +0000] "GET /resetpassword/$(token) HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Aug/2022:11:27:16 +0000] "GET /resetpassword/$(token) HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+error: uncaughtException: swaggerUi is not defined
+ReferenceError: swaggerUi is not defined
+    at Object.<anonymous> (H:\NodeJS\fundooNotes\fundooNotes\src\/index.js:31:22)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (H:\NodeJS\fundooNotes\fundooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.newLoader [as .js] (H:\NodeJS\fundooNotes\fundooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (H:\NodeJS\fundooNotes\fundooNotes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Tue Aug 09 2022 08:57:47 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":642041},"process":{"argv":["node","H:\\NodeJS\\fundooNotes\\fundooNotes\\src\\index.js"],"cwd":"H:\\NodeJS\\fundooNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18812399,"external":51875137,"heapTotal":117395456,"heapUsed":88263912,"rss":151408640},"pid":12964,"uid":null,"version":"v16.14.2"},"stack":"ReferenceError: swaggerUi is not defined\n    at Object.<anonymous> (H:\\NodeJS\\fundooNotes\\fundooNotes\\src\\/index.js:31:22)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Module._compile (H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Object.newLoader [as .js] (H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":22,"file":"H:\\NodeJS\\fundooNotes\\fundooNotes\\src\\/index.js","function":null,"line":31,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":24,"file":"H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":7,"file":"H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"H:\\NodeJS\\fundooNotes\\fundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+info: ::1 - - [09/Aug/2022:03:38:30 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:03:39:03 +0000] "POST /api/v1/users//forgotpassword HTTP/1.1" 200 398 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:03:40:26 +0000] "GET /resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhbGxhdmlrQGdtYWlsLmNvbSIsIl9pZCI6IjYyZWE3ODdmMTQxMDY2MzMzODY1MjE2NiIsImlhdCI6MTY2MDAxNjMzNn0.URPBRchGDw_n8DPKNrRgS_sCMkg5BUQXFjzerylTmmc HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Aug/2022:03:40:26 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Aug/2022:03:42:05 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 400 43 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:03:51:50 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 400 43 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:03:53:09 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 400 78 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:03:54:24 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 400 58 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:03:55:25 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 328 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:03:56:37 +0000] "POST /api/v1/users/login HTTP/1.1" 201 246 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:03:58:39 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:03:59:01 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 400 46 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:03:59:29 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 400 46 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:04:01:33 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 400 46 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:04:01:57 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 400 46 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:04:03:37 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 400 46 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:04:06:01 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 400 46 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:04:06:40 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 405 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:04:07:33 +0000] "GET /resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IiBwcmFjaGlzaGluZGVAZ21haWwuY29tICIsIl9pZCI6IjYyZTQxNDVmNmJhZGRjNDVjOGIzYjI1MiIsImlhdCI6MTY2MDAxNzk5NX0.GffgdMWsxqGBydnonUQMfbMvSQ5Nm9RaoJG7drr7Ys8 HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Aug/2022:04:08:23 +0000] "PUT /api/v1/users/resetpassword HTTP/1.1" 200 332 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:04:13:43 +0000] "GET /resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IiBwcmFjaGlzaGluZGVAZ21haWwuY29tICIsIl9pZCI6IjYyZTQxNDVmNmJhZGRjNDVjOGIzYjI1MiIsImlhdCI6MTY2MDAxNzk5NX0.GffgdMWsxqGBydnonUQMfbMvSQ5Nm9RaoJG7drr7Ys8 HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
