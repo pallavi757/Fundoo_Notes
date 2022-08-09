@@ -45,4 +45,8 @@ export async function sendMail(email,token)
 }
 // sendMail()
 // .then((result)=>console.log('Email sent...',result))
+<<<<<<< HEAD
 // .catch((error)=>console.log(error.message)); 
+=======
+// .catch((error)=>console.log(error.message));
+>>>>>>> e17b3c5df30374ffc6412d7fff29d61091f16f8c

@@ -40,8 +40,13 @@ export const passwordAuth = async (req, res, next) => {
         code: HttpStatus.BAD_REQUEST,
         message: 'Authorization token is required'
       };
+<<<<<<< HEAD
     passToken = passToken.split(' ')[1];
     const user = await jwt.verify(passToken, process.env.NEWSECREATEKEY);
+=======
+      passToken = passToken.split(' ')[1];
+    const  user = await jwt.verify(passToken,process.env.NEWSECREATEKEY);
+>>>>>>> e17b3c5df30374ffc6412d7fff29d61091f16f8c
     //console.log(user);
     req.body.email = user.email;
     next();
@@ -49,6 +54,12 @@ export const passwordAuth = async (req, res, next) => {
     res.status(HttpStatus.BAD_REQUEST).json({
       code: HttpStatus.BAD_REQUEST,
       message: `UnAuthorised token`
+<<<<<<< HEAD
     });
   }
 };
+=======
+  });
+  }
+};
+>>>>>>> e17b3c5df30374ffc6412d7fff29d61091f16f8c
