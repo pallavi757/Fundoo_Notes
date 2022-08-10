@@ -1,0 +1,90 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T18:41:03.691Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T18:41:03.763Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T18:46:55.253Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T18:46:55.302Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T18:49:36.564Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T18:49:36.636Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token p in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at parse (H:\NodeJS\fundooNotes\fundooNotes\node_modules\body-parser\lib\types\json.js:89:19)
+    at H:\NodeJS\fundooNotes\fundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (H:\NodeJS\fundooNotes\fundooNotes\node_modules\raw-body\index.js:231:16)
+    at done (H:\NodeJS\fundooNotes\fundooNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (H:\NodeJS\fundooNotes\fundooNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/forgetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-09T18:51:00.466Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 23
+    at JSON.parse (<anonymous>)
+    at parse (H:\NodeJS\fundooNotes\fundooNotes\node_modules\body-parser\lib\types\json.js:89:19)
+    at H:\NodeJS\fundooNotes\fundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (H:\NodeJS\fundooNotes\fundooNotes\node_modules\raw-body\index.js:231:16)
+    at done (H:\NodeJS\fundooNotes\fundooNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (H:\NodeJS\fundooNotes\fundooNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/forgetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-09T18:51:27.375Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T18:55:31.070Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T18:55:31.130Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T18:56:26.119Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T18:56:26.172Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token p in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at parse (H:\NodeJS\fundooNotes\fundooNotes\node_modules\body-parser\lib\types\json.js:89:19)
+    at H:\NodeJS\fundooNotes\fundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (H:\NodeJS\fundooNotes\fundooNotes\node_modules\raw-body\index.js:231:16)
+    at done (H:\NodeJS\fundooNotes\fundooNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (H:\NodeJS\fundooNotes\fundooNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/forgetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-09T18:57:31.873Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T18:59:33.437Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T18:59:33.504Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T19:06:09.810Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T19:06:09.853Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T02:19:50.509Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T02:19:50.581Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T03:17:38.965Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T03:17:39.042Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T03:34:06.235Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T03:34:06.296Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T03:36:55.582Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T03:36:55.648Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T04:00:17.153Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T04:00:17.207Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T04:10:21.494Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T04:10:21.548Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T04:45:29.923Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T04:45:29.962Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T04:59:53.443Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T04:59:53.513Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T05:06:02.554Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T05:06:02.628Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T05:10:51.988Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T05:10:52.063Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T18:25:33.437Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T18:25:33.498Z"}
