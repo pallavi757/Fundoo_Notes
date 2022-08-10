@@ -374,58 +374,62 @@
                             }
                         ]
                     }
-                },
-                "securityDefinitions": {
-                    "JWT": {
-                        "type": "apiKey",
-                        "name": "Authorization",
-                        "in": "header"
+                }
+            },
+            "securityDefinitions": {
+                "JWT": {
+                    "type": "apiKey",
+                    "name": "Authorization",
+                    "in": "header"
+                }
+            },
+            "definitions": {
+                "User": {
+                    "type": "object",
+                    "properties": {
+                        "firstName": {
+                            "type": "string"
+                        },
+                        "lastName": {
+                            "type": "string"
+                        },
+                        "email": {
+                            "type": "string"
+                        },
+                        "password": {
+                            "type": "string"
+                        }
                     }
                 },
-                "definitions": {
-                    "User": {
-                        "type": "object",
-                        "properties": {
-                            "firstName": {
-                                "type": "string"
-                            },
-                            "lastName": {
-                                "type": "string"
-                            },
-                            "email": {
-                                "type": "string"
-                            },
-                            "password": {
-                                "type": "string"
-                            }
+                "login": {
+                    "type": "object",
+                    "properties": {
+                        "email": {
+                            "type": "string"
+                        },
+                        "password": {
+                            "type": "string"
                         }
-                    },
-                    "login": {
-                        "type": "object",
-                        "properties": {
-                            "email": {
-                                "type": "string"
-                            },
-                            "password": {
-                                "type": "string"
-                            }
-                        }
-                    },
-                    "Note": {
-                        "type": "object",
-                        "properties": {
-                            "Title": {
-                                "type": "string"
-                            },
-                            "Descreption": {
-                                "type": "string"
-                            },
-                            "color": {
-                                "type": "string"
-                            },
-                            "UserID": {
-                                "type": "string"
-                            }
+                    }
+                },
+                "Note": {
+                    "type": "object",
+                    "properties": {
+                        "Title": {
+                            "type": "string"
+                        },
+                        "Descreption": {
+                            "type": "string"
+                        },
+                        "color": {
+                            "type": "string"
+                        },
+                        "UserID": {
+                            "type": "string"
                         }
                     }
                 }
+            }
+        }
+    }
+}
