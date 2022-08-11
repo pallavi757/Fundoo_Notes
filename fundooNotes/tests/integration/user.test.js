@@ -1,7 +1,6 @@
 import { expect } from 'chai';
 import request from 'supertest';
 import mongoose from 'mongoose';
-
 import app from '../../src/index';
 
 describe('User APIs Test', () => {
