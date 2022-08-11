@@ -3,8 +3,6 @@ import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import { sendMail } from '../utils/user.util';
 
-import { sendMail } from '../utils/user.util';
-
 /*create new user for registration and store user password with hash password*/
 export const userRegistration = async (body) => {
   const present = await User.findOne({ email: body.email });/* search by email for checking user is present in database or  */
